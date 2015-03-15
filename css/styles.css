@@ -30,6 +30,10 @@ body {
 	transition: 0.5s all;
 }
 
+#header .active {
+	text-decoration: underline;
+}
+
 #header a:hover {
 	color: #b5cbce;
 	font-size: 30px;
@@ -90,6 +94,25 @@ body {
 }
 /*End portfolio section*/
 
+/*About section*/
+#hero {
+	padding: 0;
+	max-width: 1100px;
+}
+
+#hero img {
+	width: 100%;
+	display: block;
+}
+
+#about {
+	background-color: #d1c8c3;
+}
+
+h2 {
+	margin: 0;
+}
+/*End about section*/
 @media (min-width: 500px) {
 	.portfolio_piece {
 		width: 31.33333333%;
